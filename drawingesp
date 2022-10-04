@@ -88,3 +88,22 @@ esp7.Transparency = 0.2
 esp7.Color3 = TomatoWareSettings.World.SmallBoxColor
 esp7.Parent = SmallBox
 esp7.ZIndex = 1
+
+while TomatoWareSettings.World.BackpackEnabled == true do
+  wait(1)
+  
+  local bp = workspace:GetDescendants()
+  for _, descendant in next, bp do
+        if descendant:IsA("BoxHandleAdornment") and descendant.Name == "bp" then
+     
+    descendant.Visible = true
+
+    end
+  end
+  
+  if TomatoWareSettings.World.BackpackEnabled == false then
+  
+  break
+  
+  end
+end
