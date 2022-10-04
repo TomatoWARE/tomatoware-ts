@@ -1,0 +1,90 @@
+local NitrateORE = game:GetService("ReplicatedStorage").Entities.NitrateOre.Part
+
+local esp = Instance.new("BoxHandleAdornment")
+esp.Name = "nit"
+esp.Adornee = NitrateORE
+esp.Visible = TomatoWareSettings.World.NitrateEnabled
+esp.AlwaysOnTop = true
+esp.Size = Vector3.new(2.3,2.3,2.3)
+esp.Transparency = 0.2
+esp.Color3 = TomatoWareSettings.World.NitrateColor
+esp.Parent = NitrateORE
+esp.ZIndex = 1
+
+local IronORE = game:GetService("ReplicatedStorage").Entities.IronOre.Part
+
+local esp2 = Instance.new("BoxHandleAdornment")
+esp2.Name = "irn"
+esp2.Adornee = IronORE
+esp2.Visible = TomatoWareSettings.World.IronEnabled
+esp2.AlwaysOnTop = true
+esp2.Size = Vector3.new(2.3,2.3,2.3)
+esp2.Transparency = 0.2
+esp2.Color3 = TomatoWareSettings.World.IronColor
+esp2.Parent = IronORE
+esp2.ZIndex = 1
+
+local StoneORE = game:GetService("ReplicatedStorage").Entities.StoneOre.Part
+
+local esp3 = Instance.new("BoxHandleAdornment")
+esp3.Name = "stn"
+esp3.Adornee = StoneORE
+esp3.Visible = TomatoWareSettings.World.StoneEnabled
+esp3.AlwaysOnTop = true
+esp3.Size = Vector3.new(2.3,2.3,2.3)
+esp3.Transparency = 0.2
+esp3.Color3 = TomatoWareSettings.World.StoneColor
+esp3.Parent = StoneORE
+esp3.ZIndex = 1
+
+local Backpack = game:GetService("ReplicatedStorage").Entities.Backpack.Part
+
+local esp4 = Instance.new("BoxHandleAdornment")
+esp4.Name = "bp"
+esp4.Adornee = Backpack
+esp4.Visible = TomatoWareSettings.World.BackpackEnabled
+esp4.AlwaysOnTop = true
+esp4.Size = Vector3.new(2.3,2.3,2.3)
+esp4.Transparency = 0.2
+esp4.Color3 = TomatoWareSettings.World.BackpackColor
+esp4.Parent = Backpack
+esp4.ZIndex = 1
+
+local MilitaryCrate = game:GetService("ReplicatedStorage").Entities.MilitaryCrate.Part
+
+local esp5 = Instance.new("BoxHandleAdornment")
+esp5.Name = "ml"
+esp5.Adornee = Backpack
+esp5.Visible = TomatoWareSettings.World.MiliEnabled
+esp5.AlwaysOnTop = true
+esp5.Size = Vector3.new(2.3,2.3,2.3)
+esp5.Transparency = 0.2
+esp5.Color3 = TomatoWareSettings.World.MiliColor
+esp5.Parent = MilitaryCrate
+esp5.ZIndex = 1
+
+local MediumBox = game:GetService("ReplicatedStorage").Entities.MediumBox.Part
+
+local esp6 = Instance.new("BoxHandleAdornment")
+esp6.Name = "box"
+esp6.Adornee = MediumBox
+esp6.Visible = TomatoWareSettings.World.NormalBoxEnabled
+esp6.AlwaysOnTop = true
+esp6.Size = Vector3.new(2.3,2.3,2.3)
+esp6.Transparency = 0.2
+esp6.Color3 = TomatoWareSettings.World.NormalBoxColor
+esp6.Parent = MediumBox
+esp6.ZIndex = 1
+
+local SmallBox = game:GetService("ReplicatedStorage").Entities.SmallBox.Part
+
+local esp7 = Instance.new("BoxHandleAdornment")
+esp7.Name = "sbox"
+esp7.Adornee = SmallBox
+esp7.Visible = TomatoWareSettings.World.SmallBoxEnabled
+esp7.AlwaysOnTop = true
+esp7.Size = Vector3.new(2.3,2.3,2.3)
+esp7.Transparency = 0.2
+esp7.Color3 = TomatoWareSettings.World.SmallBoxColor
+esp7.Parent = SmallBox
+esp7.ZIndex = 1
